@@ -1,0 +1,68 @@
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.0:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.8. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.8.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_2c6fbe78[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/mirali/.sbt/boot/scala-2.12.8/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/mirali/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar:/home/mirali/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/mirali/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.0/compiler-interface-1.3.0.jar:/home/mirali/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.3.0/compiler-bridge_2.12-1.3.0-sources.jar:/home/mirali/.sbt/boot/scala-2.12.8/lib/scala-compiler.jar:/home/mirali/.sbt/boot/scala-2.12.8/lib/scala-reflect.jar:/home/mirali/.sbt/boot/scala-2.12.8/lib/scala-xml_2.12.jar:/home/mirali/.sbt/boot/scala-2.12.8/lib/jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9ea9fd17/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 12.042s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.0:compile for Scala 2.12.8[0m
+[0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m
+[0m[[0m[31merror[0m] [0m[0m(Thread-8) java.io.IOException: Input/output error[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Thread run-main-0 exited.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0m[0mdebug[0m] [0m[0mNot interrupting system thread Thread[process reaper,10,system][0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting thread Thread-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Interrupted Thread-8[0m
+[0m[[0m[0mdebug[0m] [0m[0mSandboxed run complete..[0m
+[0m[[0m[0mdebug[0m] [0m[0mExited with code 0[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOException: Input/output error[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileInputStream.read0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileInputStream.read(FileInputStream.java:207)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:245)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.internal.InputStreamReader.read(InputStreamReader.java:257)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.internal.InputStreamReader.read(InputStreamReader.java:194)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2151)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readBinding(ConsoleReader.java:2226)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2467)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2378)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2366)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readOneLine(JLineReader.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine(InteractiveReader.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine$(InteractiveReader.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readLine(JLineReader.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.SplashReader.readLine(InteractiveReader.scala:154)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.SplashLoop.run(InteractiveReader.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m

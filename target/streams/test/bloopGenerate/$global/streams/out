@@ -1,0 +1,4 @@
+[debug] [cs320-test] Classpath dependencies List()
+[debug] [cs320-test] Dependencies from configurations List(cs320)
+[debug] Bloop wrote the configuration of project 'cs320-test' to '/home/mirali/Desktop/CS320/.bloop/cs320-test.json'
+[success] Generated .bloop/cs320-test.json

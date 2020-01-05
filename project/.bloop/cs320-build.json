@@ -1,0 +1,902 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "cs320-build",
+        "directory" : "/home/mirali/Desktop/CS320/project",
+        "sources" : [
+            "/home/mirali/Desktop/CS320/project/src/main/scala-2.10",
+            "/home/mirali/Desktop/CS320/project/src/main/scala",
+            "/home/mirali/Desktop/CS320/project/src/main/java",
+            "/home/mirali/Desktop/CS320/project/src/main/scala-sbt-0.13",
+            "/home/mirali/Desktop/CS320/project/target/scala-2.10/sbt-0.13/src_managed/main"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "/home/mirali/.ivy2/cache/scala_2.10/sbt_0.13/ch.epfl.scala/sbt-bloop/jars/sbt-bloop-1.3.2.jar",
+            "/home/mirali/.ivy2/cache/ch.epfl.scala/bloop-config_2.10/jars/bloop-config_2.10-1.3.2.jar",
+            "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-library.jar",
+            "/home/mirali/.ivy2/cache/io.circe/circe-parser_2.10/jars/circe-parser_2.10-0.9.3.jar",
+            "/home/mirali/.ivy2/cache/io.circe/circe-jawn_2.10/jars/circe-jawn_2.10-0.9.3.jar",
+            "/home/mirali/.ivy2/cache/io.circe/circe-core_2.10/jars/circe-core_2.10-0.9.3.jar",
+            "/home/mirali/.ivy2/cache/io.circe/circe-numbers_2.10/jars/circe-numbers_2.10-0.9.3.jar",
+            "/home/mirali/.ivy2/cache/org.typelevel/cats-core_2.10/jars/cats-core_2.10-1.0.1.jar",
+            "/home/mirali/.ivy2/cache/org.typelevel/cats-macros_2.10/jars/cats-macros_2.10-1.0.1.jar",
+            "/home/mirali/.ivy2/cache/org.typelevel/machinist_2.10/jars/machinist_2.10-0.6.2.jar",
+            "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-reflect.jar",
+            "/home/mirali/.ivy2/cache/org.typelevel/cats-kernel_2.10/jars/cats-kernel_2.10-1.0.1.jar",
+            "/home/mirali/.ivy2/cache/org.spire-math/jawn-parser_2.10/jars/jawn-parser_2.10-0.11.1.jar",
+            "/home/mirali/.ivy2/cache/io.circe/circe-generic_2.10/jars/circe-generic_2.10-0.9.3.jar",
+            "/home/mirali/.ivy2/cache/org.typelevel/macro-compat_2.10/jars/macro-compat_2.10-1.1.1.jar",
+            "/home/mirali/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.1.1.jar",
+            "/home/mirali/.ivy2/cache/com.chuusai/shapeless_2.10/bundles/shapeless_2.10-2.3.3.jar",
+            "/home/mirali/.ivy2/cache/scala_2.10/sbt_0.13/org.scalameta/sbt-metals/jars/sbt-metals-0.7.2.jar",
+            "/home/mirali/.ivy2/cache/scala_2.10/sbt_0.13/com.oradian.sbt/sbt-sh/jars/sbt-sh-0.3.0.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/classpath/jars/classpath-0.13.17.jar",
+            "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-compiler.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/interface/jars/interface-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-1.0.1.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/completion/jars/completion-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/jline/jline/jars/jline-2.14.5.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/api/jars/api-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/classfile/jars/classfile-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/process/jars/process-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/compiler-integration/jars/compiler-integration-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/relation/jars/relation-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/compile/jars/compile-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/persist/jars/persist-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/jars/sbinary_2.10-0.4.2.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/jars/compiler-ivy-integration-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/cross/jars/cross-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt.ivy/ivy/jars/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar",
+            "/home/mirali/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.50.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/serialization_2.10/jars/serialization_2.10-0.1.2.jar",
+            "/home/mirali/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/jars/scala-pickling_2.10-0.10.1.jar",
+            "/home/mirali/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.10.jar",
+            "/home/mirali/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.10.jar",
+            "/home/mirali/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar",
+            "/home/mirali/.ivy2/cache/org.spire-math/json4s-support_2.10/jars/json4s-support_2.10-0.6.0.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/run/jars/run-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/tasks/jars/tasks-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/tracking/jars/tracking-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/cache/jars/cache-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/test-agent/jars/test-agent-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/template-resolver/jars/template-resolver-0.1.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/logic/jars/logic-0.13.17.jar",
+            "/home/mirali/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-0.13.17.jar"
+        ],
+        "out" : "/home/mirali/Desktop/CS320/project/.bloop/cs320-build",
+        "classesDir" : "/home/mirali/Desktop/CS320/project/.bloop/cs320-build/scala-2.10/sbt-0.13/classes",
+        "resources" : [
+            "/home/mirali/Desktop/CS320/project/src/main/resources",
+            "/home/mirali/Desktop/CS320/project/target/scala-2.10/sbt-0.13/resource_managed/main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.10.7",
+            "options" : [
+                "-deprecation"
+            ],
+            "jars" : [
+                "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-library.jar",
+                "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-compiler.jar",
+                "/home/mirali/.sbt/boot/scala-2.10.7/lib/jline.jar",
+                "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-reflect.jar",
+                "/home/mirali/.sbt/boot/scala-2.10.7/lib/jansi.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "sbt" : {
+            "sbtVersion" : "0.13.17",
+            "autoImports" : [
+                "import sbt._, Keys._, dsl._",
+                "import _root_.bloop.integrations.sbt.BloopPlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.scala.meta.metals.MetalsPlugin, _root_.com.oradian.sbt.SbtShPlugin"
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "ch.epfl.scala",
+                    "name" : "sbt-bloop",
+                    "version" : "1.3.2",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-bloop",
+                            "path" : "/home/mirali/.ivy2/cache/scala_2.10/sbt_0.13/ch.epfl.scala/sbt-bloop/jars/sbt-bloop-1.3.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "ch.epfl.scala",
+                    "name" : "bloop-config_2.10",
+                    "version" : "1.3.2",
+                    "artifacts" : [
+                        {
+                            "name" : "bloop-config_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/ch.epfl.scala/bloop-config_2.10/jars/bloop-config_2.10-1.3.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.10.7",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-library.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-parser_2.10",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-parser_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/io.circe/circe-parser_2.10/jars/circe-parser_2.10-0.9.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-jawn_2.10",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-jawn_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/io.circe/circe-jawn_2.10/jars/circe-jawn_2.10-0.9.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-core_2.10",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-core_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/io.circe/circe-core_2.10/jars/circe-core_2.10-0.9.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-numbers_2.10",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-numbers_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/io.circe/circe-numbers_2.10/jars/circe-numbers_2.10-0.9.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-core_2.10",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-core_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.typelevel/cats-core_2.10/jars/cats-core_2.10-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-macros_2.10",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-macros_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.typelevel/cats-macros_2.10/jars/cats-macros_2.10-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "machinist_2.10",
+                    "version" : "0.6.2",
+                    "artifacts" : [
+                        {
+                            "name" : "machinist_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.typelevel/machinist_2.10/jars/machinist_2.10-0.6.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.10.7",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-reflect.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-kernel_2.10",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-kernel_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.typelevel/cats-kernel_2.10/jars/cats-kernel_2.10-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.spire-math",
+                    "name" : "jawn-parser_2.10",
+                    "version" : "0.11.1",
+                    "artifacts" : [
+                        {
+                            "name" : "jawn-parser_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.spire-math/jawn-parser_2.10/jars/jawn-parser_2.10-0.11.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-generic_2.10",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-generic_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/io.circe/circe-generic_2.10/jars/circe-generic_2.10-0.9.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "macro-compat_2.10",
+                    "version" : "1.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "macro-compat_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.typelevel/macro-compat_2.10/jars/macro-compat_2.10-1.1.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalamacros",
+                    "name" : "quasiquotes_2.10",
+                    "version" : "2.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "quasiquotes_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.1.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.chuusai",
+                    "name" : "shapeless_2.10",
+                    "version" : "2.3.3",
+                    "artifacts" : [
+                        {
+                            "name" : "shapeless_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/com.chuusai/shapeless_2.10/bundles/shapeless_2.10-2.3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalameta",
+                    "name" : "sbt-metals",
+                    "version" : "0.7.2",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-metals",
+                            "path" : "/home/mirali/.ivy2/cache/scala_2.10/sbt_0.13/org.scalameta/sbt-metals/jars/sbt-metals-0.7.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.oradian.sbt",
+                    "name" : "sbt-sh",
+                    "version" : "0.3.0",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-sh",
+                            "path" : "/home/mirali/.ivy2/cache/scala_2.10/sbt_0.13/com.oradian.sbt/sbt-sh/jars/sbt-sh-0.3.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "sbt",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "main",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "main",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "actions",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "actions",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "classpath",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "classpath",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/classpath/jars/classpath-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-compiler",
+                    "version" : "2.10.7",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-compiler",
+                            "path" : "/home/mirali/.sbt/boot/scala-2.10.7/lib/scala-compiler.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "interface",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "interface",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/interface/jars/interface-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "io",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "io",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "control",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "control",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "launcher-interface",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "launcher-interface",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "completion",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "completion",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/completion/jars/completion-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "collections",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "collections",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "jline",
+                    "name" : "jline",
+                    "version" : "2.14.5",
+                    "artifacts" : [
+                        {
+                            "name" : "jline",
+                            "path" : "/home/mirali/.ivy2/cache/jline/jline/jars/jline-2.14.5.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "api",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "api",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/api/jars/api-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "classfile",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "classfile",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/classfile/jars/classfile-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "logging",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "logging",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "process",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "process",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/process/jars/process-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "compiler-integration",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "compiler-integration",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/compiler-integration/jars/compiler-integration-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "incremental-compiler",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "incremental-compiler",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "relation",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "relation",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/relation/jars/relation-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "compile",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "compile",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/compile/jars/compile-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "persist",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "persist",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/persist/jars/persist-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-tools.sbinary",
+                    "name" : "sbinary_2.10",
+                    "version" : "0.4.2",
+                    "artifacts" : [
+                        {
+                            "name" : "sbinary_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/jars/sbinary_2.10-0.4.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "compiler-ivy-integration",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "compiler-ivy-integration",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/jars/compiler-ivy-integration-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "ivy",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "ivy",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "cross",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "cross",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/cross/jars/cross-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt.ivy",
+                    "name" : "ivy",
+                    "version" : "2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310",
+                    "artifacts" : [
+                        {
+                            "name" : "ivy",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt.ivy/ivy/jars/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.jcraft",
+                    "name" : "jsch",
+                    "version" : "0.1.50",
+                    "artifacts" : [
+                        {
+                            "name" : "jsch",
+                            "path" : "/home/mirali/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.50.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "serialization_2.10",
+                    "version" : "0.1.2",
+                    "artifacts" : [
+                        {
+                            "name" : "serialization_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/serialization_2.10/jars/serialization_2.10-0.1.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-pickling_2.10",
+                    "version" : "0.10.1",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-pickling_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/jars/scala-pickling_2.10-0.10.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.json4s",
+                    "name" : "json4s-core_2.10",
+                    "version" : "3.2.10",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-core_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.json4s",
+                    "name" : "json4s-ast_2.10",
+                    "version" : "3.2.10",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-ast_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.thoughtworks.paranamer",
+                    "name" : "paranamer",
+                    "version" : "2.6",
+                    "artifacts" : [
+                        {
+                            "name" : "paranamer",
+                            "path" : "/home/mirali/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.spire-math",
+                    "name" : "json4s-support_2.10",
+                    "version" : "0.6.0",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-support_2.10",
+                            "path" : "/home/mirali/.ivy2/cache/org.spire-math/json4s-support_2.10/jars/json4s-support_2.10-0.6.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "run",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "run",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/run/jars/run-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "task-system",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "task-system",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "tasks",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "tasks",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/tasks/jars/tasks-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "tracking",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "tracking",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/tracking/jars/tracking-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "cache",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "cache",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/cache/jars/cache-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "testing",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "testing",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "test-agent",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "test-agent",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/test-agent/jars/test-agent-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "test-interface",
+                    "version" : "1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "test-interface",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "main-settings",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "main-settings",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "apply-macro",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "apply-macro",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "command",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "command",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "template-resolver",
+                    "version" : "0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "template-resolver",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/template-resolver/jars/template-resolver-0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "logic",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "logic",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/logic/jars/logic-0.13.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "compiler-interface",
+                    "version" : "0.13.17",
+                    "artifacts" : [
+                        {
+                            "name" : "compiler-interface",
+                            "path" : "/home/mirali/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-0.13.17.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
