@@ -7,6 +7,7 @@ Structure of repository:
 
 ```
 ├── README.md
+├── README.pdf
 ├── src
 │   ├── main
 │   │   ├── scala
@@ -16,3 +17,7 @@ Structure of repository:
 │   │   │   │   └── etc...
 ├── etc...
 ```
+
+To set up the environment, follow the instructions given in the README.pdf file.
+
+For each homework, read the homework description given in the hwXX.pdf file.
